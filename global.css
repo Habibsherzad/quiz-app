@@ -1,0 +1,16 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  outline: 2.5px solid black;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+body {
+  padding-bottom: 20vw;
+}

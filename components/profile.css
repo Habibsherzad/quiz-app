@@ -1,0 +1,54 @@
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5vw;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5vw 10vw 5vw 10vw;
+}
+
+.about-me-container h2 {
+  margin: 0;
+}
+.counter-container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2vw;
+}
+
+.counter {
+  display: flex;
+  align-items: center;
+  gap: 2vw;
+  border: 0.5vw solid black;
+  max-width: fit-content;
+  max-height: fit-content;
+  padding: 2vw;
+  border-radius: 2.5vw;
+}
+
+.settings-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 5vw 10vw 5vw 10vw;
+}
+
+.toggle-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 30vw;
+}
+
+.toggle-button {
+  border-radius: 2vw;
+  max-width: fit-content;
+  max-height: fit-content;
+  padding: 2vw;
+}

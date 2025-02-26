@@ -1,0 +1,9 @@
+.answer-button {
+  align-self: center;
+  width: 30vw;
+  height: 10vw;
+  min-height: fit-content;
+  min-height: fit-content;
+  margin-bottom: 20px;
+  font-size: large;
+}
