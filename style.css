@@ -1,3 +1,8 @@
+html {
+  scroll-behavior: smooth;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
 header {
   display: flex;
   justify-content: center;
@@ -6,13 +11,23 @@ header {
   margin-bottom: 20px;
 }
 
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .question-card {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   outline: 2.5px solid black;
   padding: 10px;
   position: relative;
   margin-bottom: 20px;
+  height: 65vw;
+  width: 75vw;
+  position: relative;
 }
 
 .question-title {
@@ -22,15 +37,25 @@ header {
 
 .answer-button {
   align-self: center;
-  max-width: fit-content;
+  width: 30vw;
+  height: 10vw;
+  min-height: fit-content;
+  min-height: fit-content;
   margin-bottom: 20px;
+  font-size: large;
+}
+
+.tag-container {
+  display: flex;
+  gap: 2.5vw;
+  position: absolute;
+  bottom: 2.5vw;
 }
 
 .tag {
+  display: inline-block;
   outline: 2.5px solid black;
-  margin: 5px;
   padding: 2.5px;
-  margin-bottom: 20px;
 }
 
 .bookmark {
@@ -51,4 +76,24 @@ header {
 .answer-card p {
   align-self: center;
   margin-bottom: 20px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  min-width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+  border: 2.5px solid black;
+  padding: 10px;
+  margin: 0;
 }
