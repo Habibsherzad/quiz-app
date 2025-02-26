@@ -3,4 +3,52 @@ header {
   justify-content: center;
   outline: 2.5px solid black;
   padding: 10px;
+  margin-bottom: 20px;
+}
+
+.question-card {
+  display: flex;
+  flex-direction: column;
+  outline: 2.5px solid black;
+  padding: 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.question-title {
+  align-self: center;
+  margin-bottom: 20px;
+}
+
+.answer-button {
+  align-self: center;
+  max-width: fit-content;
+  margin-bottom: 20px;
+}
+
+.tag {
+  outline: 2.5px solid black;
+  margin: 5px;
+  padding: 2.5px;
+  margin-bottom: 20px;
+}
+
+.bookmark {
+  align-self: flex-end;
+  position: absolute;
+  top: -15px;
+}
+
+.answer-card {
+  display: none;
+  flex-direction: column;
+  outline: 2.5px solid black;
+  padding: 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.answer-card p {
+  align-self: center;
+  margin-bottom: 20px;
 }
